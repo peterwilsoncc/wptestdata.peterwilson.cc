@@ -3,7 +3,6 @@
 // Load database info and local development parameters
 // ===================================================
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
-	define( 'WP_LOCAL_DEV', true );
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
