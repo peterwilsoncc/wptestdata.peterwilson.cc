@@ -1,3 +1,6 @@
+Header set X-Robots-Tag "noindex, nofollow"
+
+
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
