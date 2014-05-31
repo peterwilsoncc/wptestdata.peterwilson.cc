@@ -1,3 +1,6 @@
 [submodule "wp"]
 	path = wp
 	url = git://github.com/WordPress/WordPress.git
+[submodule "content/plugins/json-rest-api"]
+	path = content/plugins/json-rest-api
+	url = git@github.com:WP-API/WP-API.git
